@@ -10,7 +10,7 @@ export default defineConfig({
   //这里可以不用改
   description: '资料站点',
   //服务器需要注释下面
-  // base: '/mt/',
+  base: '/mt/',
   //文档目录的路径 报错
   //srcDir: 'docs',
   themeConfig: {
