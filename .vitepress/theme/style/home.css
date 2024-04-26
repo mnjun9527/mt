@@ -1,0 +1,26 @@
+/* // 文档侧边栏样式重写 */
+
+.VPSidebarGroup,
+.VPSidebarItem {
+  .is-link {
+    &:hover {
+      color: var(--vp-c-brand);
+      background: var(--vt-c-button-hover-bg);
+    }
+    &.has-active {
+      background: rgba(66, 139, 184, 0.1);
+    }
+    border-radius: 6px;
+    padding: 3px 0;
+    .link-text,
+    .text {
+      padding-left: 12px;
+    }
+  }
+}
+
+.VPNavBarTitle span {
+  &:hover {
+    color: rgb(135, 135, 135);
+  }
+}

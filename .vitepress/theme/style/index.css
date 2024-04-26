@@ -1,0 +1,15 @@
+/* 文档样式 */
+@import './doc.css';
+/* 代码块的彩色边框 */
+@import './custom.css';
+/* 交通灯 */
+@import './trafficLights.css';
+/* 自定义块 */
+@import './custom-blocks.css';
+/* 自定义块 */
+@import './home.css';
+
+.content img {
+  max-width: 20%; /* 图片宽度不超过其容器宽度 */
+  height: auto; /* 高度自动缩放以保持图像比例 */
+}

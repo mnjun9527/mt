@@ -1,0 +1,100 @@
+:root {
+  /* 列表悬浮和选中的颜色 */
+  --vp-c-brand-1: #16a0db;
+  /* 导航栏悬浮的颜色 */
+  --vp-c-brand-2: #16a0db;
+  /* --vp-c-brand-3: #30a46c; */
+}
+
+/* .dark {
+  --vp-c-brand-1: #3dd68c;
+  --vp-c-brand-2: #30a46c;
+  --vp-c-brand-3: #298459;
+} */
+
+/* 以前的vp-c-brand已弃用 */
+
+/* 自定义一级标题的颜色*/
+.vp-doc h1 {
+  font-size: 25px;
+  background: -webkit-linear-gradient(-45deg, #e43498 5%, #5ad7dd 15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/* 自定义二级标题的颜色*/
+.vp-doc h2 {
+  font-size: 20px !important;
+  border-bottom: 4px solid rgba(184, 66, 127, 0.5);
+  line-height: 35px;
+  padding-left: 5px;
+  margin: 0;
+  border-top: 0;
+  font-weight: 600;
+  color: #16a0db;
+}
+/* 自定义二级标题的样式*/
+.vp-doc h2:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 400px;
+  height: 10px;
+  border-top-right-radius: 22px;
+  background: linear-gradient(90deg, transparent, #16a0db);
+  max-width: 50vw;
+}
+
+/* 自定义code*/
+.VPDoc .container .vp-doc :not(pre) > code {
+  color: #e44a8a;
+  border: 1px solid rgba(184, 66, 100, 0.25);
+  background-color: rgba(184, 66, 113, 0.05);
+  font-size: 16px;
+}
+
+/* 自定义三级标题的样式*/
+.vp-doc h3 {
+  font-size: 18px;
+  margin: 20px 0;
+  font-weight: 600;
+  color: #16a0db;
+  letter-spacing: -0.01em;
+  line-height: 28px;
+}
+/* 自定义四级标题的样式*/
+.VPDoc .container .vp-doc h4 {
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 600;
+  color: #16a0db;
+}
+
+/* 自定义引用块的样式 > s */
+.vp-doc blockquote {
+  margin: 0;
+  padding: 0.5rem;
+  border-left: 6px solid #198aba;
+  border-radius: 5px;
+  background: rgba(66, 139, 184, 0.1);
+}
+
+/* 自定义加粗**的样式*/
+strong {
+  color: #e44a8a;
+  &::before {
+    content: '[ ';
+  }
+  &::after {
+    content: ' ]';
+  }
+}
+
+/* 图片放大 */
+.medium-zoom-overlay {
+  z-index: 20;
+}
+.medium-zoom-image {
+  z-index: 9999 !important; /* 给的值是21，但是实测盖不住，直接999 */
+}
