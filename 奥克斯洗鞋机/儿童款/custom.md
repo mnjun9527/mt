@@ -6,7 +6,7 @@ head:
       content: 自定义 Markdown 语法
   - - meta
     - name: keywords
-      content: markdown custom 
+      content: markdown custom
 ---
 
 # {{ $frontmatter.title }}
@@ -14,7 +14,7 @@ head:
 ## 信息框
 
 ```md
-::: tip 使用TIPS代替
+::: tip 使用 TIPS 代替
 提示信息
 :::
 
@@ -37,20 +37,22 @@ head:
 
 效果如下：
 
-::: tip 使用TIPS代替
+::: tip 使用 TIPS 代替
 提示内容
 :::
 
 ::: info
-INFO消息
+INFO 消息
 :::
 
 ::: warning
-WARNING消息 <a>a链接</a>
+WARNING 消息 <a>a 链接</a>
 :::
 
 ::: danger
-DANGER消息 [md链接](./example.md)
+
+<!-- DANGER消息 [md链接](./example.md) -->
+
 :::
 
 ::: details Details
