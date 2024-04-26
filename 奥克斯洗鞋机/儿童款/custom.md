@@ -50,7 +50,6 @@ WARNING消息 <a>a链接</a>
 :::
 
 ::: danger
-DANGER消息 [md链接](./example.md)
 :::
 
 ::: details Details
