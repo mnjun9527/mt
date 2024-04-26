@@ -50,12 +50,7 @@ WARNING 消息 <a>a 链接</a>
 :::
 
 ::: danger
-<<<<<<< HEAD
-
-<!-- DANGER消息 [md链接](./example.md) -->
-
-=======
->>>>>>> ae1576cff5432a2ac0e32ebed3990740a9fb81f7
+123
 :::
 
 ::: details Details
