@@ -16,7 +16,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     //路径要放在docs/pubic/目录下
-    logo: '/logo.svg',
+    // logo: '/logo.svg',
     //导航栏
     nav,
     //下面是全文搜索的配置项
